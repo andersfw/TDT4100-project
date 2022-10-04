@@ -1,0 +1,1 @@
+Denne filen er her kun for å være sikker på at mappen ikke forsvinner ved zipping prosjekt

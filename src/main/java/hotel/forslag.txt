@@ -1,0 +1,62 @@
+1. 
+Legge til sortering av rommene utifra checkboxer på GUI? Ved å bruke comperator, dersom dette er krav om å ha med i prosjektet. 
+kan sortere på pris, antall senger (du søker etter rom med 2 senger, men får opp de som har 5 senger nederst?)
+
+2. 
+Sjekke at dato bare er frem i tid? 
+
+3. 
+Legge til avbestilling 
+
+4. 
+MÅ validere alt!!!!
+
+5. 
+Legge til hotelnavn slik at rommene og medlemmene må large hvilket hotel de hører til? På den måten legge til funksjonalitet som sjekker 
+at member.whatHotel().equals(this.getHotelName)? 
+
+6. 
+Legge til sjekk om hva som er feil i bestilling dersom listen fra søk er tom? 
+
+7. Feil: 
+- Negative verdier i søk 
+- Hvis feil i søk, så fungerer ikke oppdatering av gridpane når du bestiller 
+- Skru av resize? 
+- Sjekke at romnummer/telefonnummer ikke er brukt allerede 
+- Lage toString() på member, som brukes til lagringen 
+- Når du åpner ny fil, kjøre initialize på nytt for å oppdatere alt etter ting som da er spesifisert i mode fra fil? 
+- Endre fra pair til hashmap, siden det er pensum. 
+
+8. 
+Observer-Observerer funksjonalitet til member/room. 
+
+9. 
+Alder? Slik at man ikke kan bestille om man er under 18. om man er over 70 pensjonist pris? Lol, får mer numerikk da
+
+10. 
+Hvorfor har vi interface på saveHotelHandler? 
+Liksom vi har jo bare en save klasse 
+
+11. 
+Lage funksjoner som gjør at vi ikke trenger bruke getmember.login f eks i controller 
+
+12. 
+Streams istedet for alle løkkene? 
+
+13. 
+Du kan logge inn som ny bruker med samme telefonnummer!?!?!?
+
+14. 
+Må innkapsle alt, selvom brukeren ikke kan komme dit pga. disable i fxml 
+
+15. 
+Tilbakemelding på ny bruker?? 
+
+16.
+Sjekker vi alle unntak vi bør sjekke? f.eks null tilfeller
+
+17. 
+Fikse tilbakemelding på passord/brukernavn i GUI
+
+18. 
+Fjernet metoden som bare ga deg rom, siden denne ikke ble brukt 
